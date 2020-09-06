@@ -409,6 +409,11 @@ stat --format=%y dira
 
 </details>
 
+## Kubernetes
+
+1. Чем отличается Kubernetes от Openshift?
+
+2. Чем отличаются ReplicaController от ReplicaSet и от Deployment?
 
 ## Неотсортированное
 
