@@ -326,6 +326,33 @@ stat --format=%y dira
 
 </details>
 
+11. Представлен вывод команды `free`.
+```
+$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:           6930        3598         843         183        2489        2919
+Swap:         15999           4       15995
+```
+Почему доступной (available) памяти сейчас 2919, если свободной (free) памяти 843?
+
+<details>
+  <summary>Ответ</summary>
+
+!!! Дописать позже !!!
+
+</details>
+
+12. Вы вводите в строке браузера yandex.ru. Опишите процесс от нажатия клавиши до загрузки страницы.
+
+<details>
+  <summary>Ответ</summary>
+
+![](img/example-request.jpg)
+
+!!! ОПИСАТЬ ПОДРОБНЕЕ !!!
+
+</details>
+
 ## CI / CD
 
 1. Чем отличается Continuous Integration от Continuous Delivery от Continuous Deployment?
