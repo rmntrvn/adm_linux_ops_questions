@@ -916,17 +916,17 @@ Router Openshift использует haproxy, как прокси-вебсер�
 
 Alex Tsykunov: !?<любая часть of command> парсится в последнюю команду которая соответствует следующему аргументу:
 
-`[root@m]# cat linux2007\
+```[root@m]# cat linux2007\
 Hellom Linux 2007\
 [root@my]# !?2007\
 cat linux2007\
-Hellom Linux 2007`
+Hellom Linux 2007
 
-`[root@m]# echo cat linux2007\
+[root@m]# echo cat linux2007\
 cat linux2007\
 [root@m]# echo !? linux2007\
 echo echo cat linux2007\
-echo cat linux2007`
+echo cat linux2007```
 
 !!! Ответ к доработке !!!
 
@@ -948,13 +948,13 @@ echo cat linux2007`
 Есть две изолированные сети /25 - 192.168.1.0 (gw: 192.168.1.1), 192.168.1.128 (gw: 192.168.1.129).
 Есть два сервера со следующими таблицами маршрутизации
 
-`192.168.1.3
+```192.168.1.3
 routes
-0.0.0.0/0 192.168.1.1`
+0.0.0.0/0 192.168.1.1
 
-`192.168.1.146
+192.168.1.146
 routes
-192.168.1.128/24 192.168.1.129`
+192.168.1.128/24 192.168.1.129```
 
 Что нужно сделать, чтобы эти сервера "видели" друг друга?
 
@@ -965,15 +965,15 @@ routes
 Использовать вывод в syslog и определить tag.
 Например:
 	
-`location /memcache {
+```location /memcache {
   access_log syslog:server=unix:/dev/log,tag=nginx_memcache;
   error_log syslog:server=unix:/dev/log,tag=nginx_memcache;
-}`
+}
 
-`location /dynamic {
+location /dynamic {
   access_log syslog:server=unix:/dev/log,tag=nginx_dynamic;
   error_log syslog:server=unix:/dev/log,tag=nginx_dynamic;
-}`
+}```
 
 /static - соответственно. Вывод в определенный файл syslog можно указать опцией `:syslogtag`
 </details>
