@@ -926,6 +926,8 @@ cat linux2007\
 echo echo cat linux2007\
 echo cat linux2007
 
+!!! Ответ к доработке !!!
+
 </details>
 
 ---
