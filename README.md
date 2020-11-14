@@ -920,9 +920,9 @@ Alex Tsykunov: !?<любая часть of command> парсится в посл
 Hellom Linux 2007\
 [root@my]# !?2007\
 cat linux2007\
-Hellom Linux 2007
+Hellom Linux 2007`
 
-[root@m]# echo cat linux2007\
+`[root@m]# echo cat linux2007\
 cat linux2007\
 [root@m]# echo !? linux2007\
 echo echo cat linux2007\
