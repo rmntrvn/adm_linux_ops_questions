@@ -913,24 +913,18 @@ Router Openshift использует haproxy, как прокси-вебсер�
 <details>
   <summary>Ответ</summary>
 
-На вопрос отвечает Alex Tsykunov:\
-[root@mysql-10 nfs]# cat linux2007\
+Alex Tsykunov: !?<любая часть of command> парсится в последнюю команду которая соответствует следующему аргументу:
+[root@m]# cat linux2007\
 Hellom Linux 2007\
-[root@mysql-10 nfs]# !?2007\
+[root@my]# !?2007\
 cat linux2007\
 Hellom Linux 2007\
 
-то есть\
-!?<любая часть of command>\
-парсится в последнюю команду которая соответвует\
-
-[root@mysql-10 nfs]# echo cat linux2007\
+[root@m]# echo cat linux2007\
 cat linux2007\
 [root@mysql-10 nfs]# echo !? linux2007\
 echo echo cat linux2007\
 echo cat linux2007\
-
-!!! Добавить описание !!!
 
 </details>
 
