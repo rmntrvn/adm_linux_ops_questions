@@ -922,7 +922,7 @@ Hellom Linux 2007
 
 [root@m]# echo cat linux2007\
 cat linux2007\
-[root@mysql-10 nfs]# echo !? linux2007\
+[root@m]# echo !? linux2007\
 echo echo cat linux2007\
 echo cat linux2007
 
