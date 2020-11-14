@@ -916,7 +916,7 @@ Router Openshift использует haproxy, как прокси-вебсер�
 
 ```Alex Tsykunov: !? <любая часть of command> парсится в последнюю команду которая соответствует следующему аргументу:```
 ```
-[root@m]# cat linux2007\
+[root@m]# cat linux2007
 Hellom Linux 2007
 [root@my]# !?2007
 cat linux2007
@@ -924,7 +924,7 @@ Hellom Linux 2007
 
 [root@my]# echo cat linux2007
 cat linux2007
-[root@my]# echo !? linux200\
+[root@my]# echo !? linux200
 echo echo cat linux2007
 echo cat linux2007
 ```
