@@ -922,9 +922,9 @@ Hellom Linux 2007
 cat linux2007
 Hellom Linux 2007
 
-[root@m]# echo cat linux2007
+[root@my]# echo cat linux2007
 cat linux2007
-[root@m]# echo !? linux200\
+[root@my]# echo !? linux200\
 echo echo cat linux2007
 echo cat linux2007
 ```
