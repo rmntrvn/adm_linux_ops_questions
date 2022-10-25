@@ -122,3 +122,12 @@ echo 'yamldecode(file("filename.yaml"))' | terraform console
 ```
 
 </details>
+
+10. Что такое Workspaces в Terraform?
+
+<details>
+  <summary>Ответ</summary>
+
+[Workspaces](https://developer.hashicorp.com/terraform/language/state/workspaces#using-workspaces) в Terraform - это возможность управления state файлами. Workspace содержит все что необходимо для управления набором инфраструктуры, а отдельные рабочие области функционируют как полностью отдельные рабочие каталоги. С помощью Workspaces возможно управлять несколькими средами инфраструктуры.
+
+</details>
